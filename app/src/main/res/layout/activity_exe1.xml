@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".Exe1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtCEP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:hint="CEP"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00ff00"
+            android:onClick="onBuscarCep"
+            android:text="Buscar" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtLogradouro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Logradouro"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/txtComplemento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Complemento"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/txtBairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bairro"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/txtLocalidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Localidade"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/txtUF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="UF"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+
+</LinearLayout>
+
